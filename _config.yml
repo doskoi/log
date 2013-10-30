@@ -1,3 +1,4 @@
 baseurl: http://sh3ng.com
 permalink: /log/:year/:month/:day/:title
 date_format: "ordinal"
+subscribe_rss: /atom.xml
