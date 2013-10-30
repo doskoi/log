@@ -1,65 +1,101 @@
-/* Custom container */
-.container-narrow {
-  margin: 0 auto;
-  max-width: 700px; }
+body {
+    font-family: "SimSun", "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 18px;
+    margin: 5% 20% 5% 20%;
+    padding: 2% 5% 5% 5%;
+    width: 50%;
+    line-height: 150%;
+}
 
-.container-narrow > hr {
-  margin: 30px 0; }
+H1 {
+    font-family: STKaiti, "Kaiti SC", "SimSun", "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
 
-.navbar .nav {
-  float: right; }
+H2 {
+    font-family: STKaiti, "Kaiti SC", "SimSun", "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    margin-bottom: 60px;
+    margin-bottom: 40px;
+    padding: 5px;
+    border-bottom: 1px LightGrey solid;
+    width: 90%;
+    line-height: 150%;
+}
 
-/* posts index */
-.post > h3.title {
-  position: relative;
-  padding-top: 10px; }
 
-.post > h3.title span.date {
-  position: absolute;
-  right: 0;
-  font-size: 0.9em; }
+H3 {
+    font-family: STKaiti, "Kaiti SC", "SimSun", "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px LightGrey solid;
+    width: 80%;
+    line-height: 150%;
+}
 
-.post > .more {
-  margin: 10px 0;
-  text-align: left; }
 
-/* post-full*/
-.post-full .date {
-  margin-bottom: 20px;
-  font-weight: bold; }
+H4 {
+    font-family: STKaiti, "Kaiti SC", "SimSun", "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px LightGrey solid;
+    width: 80%;
+    line-height: 150%;
+}
 
-/* tag_box */
-.tag_box {
-  list-style: none;
-  margin: 0;
-  overflow: hidden; }
 
-.tag_box li {
-  line-height: 28px; }
+li {
+    margin-left: 10px;
+}
 
-.tag_box li i {
-  opacity: 0.9; }
 
-.tag_box.inline li {
-  float: left; }
+blockquote {
+    border-left: 4px lightgrey solid;
+    padding-left: 5px;
+    margin-left: 20px;
+}
 
-.tag_box a {
-  padding: 3px 6px;
-  margin: 2px;
-  background: #eee;
-  color: #555;
-  border-radius: 3px;
-  text-decoration: none;
-  border: 1px dashed #cccccc; }
 
-.tag_box a span {
-  vertical-align: super;
-  font-size: 0.8em; }
+pre {
+    font-family: Inconsolata, Consolas, "DEJA VU SANS MONO", "DROID SANS MONO", Proggy, monospace;
+    font-size: 75%;
+    border: solid 1px #CC929A;
+    background-color: Ivory;
+    padding: 5px;
+    line-height: 130%;
+    margin-left: 10px;
+    width: 95%;
+}
 
-.tag_box a:hover {
-  background-color: #e5e5e5; }
 
-.tag_box a.active {
-  background: #57A957;
-  border: 1px solid #4c964d;
-  color: #FFF; }
+code {
+    font-family: Inconsolata, Consolas, "DEJA VU SANS MONO", "DROID SANS MONO", Proggy, monospace;
+    font-size: 90%;
+}
+
+
+a {
+    text-decoration: none;
+    cursor: crosshair;
+    border-bottom: 1px dashed Red;
+    padding: 1px;
+    color: black;
+}
+
+
+a:hover {
+        background-color: LightGrey;
+}
+
+
+img {
+    margin-left: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+hr {
+    color: LightGrey;
+}
