@@ -58,7 +58,7 @@ pre {
     font-family: Inconsolata, Consolas, "DEJA VU SANS MONO", "DROID SANS MONO", Proggy, monospace;
     font-size: 75%;
     border: solid 1px #CC929A;
-    background-color: Ivory;
+    borderckground-color: Ivory;
     padding: 5px;
     line-height: 130%;
     margin-left: 10px;
@@ -74,7 +74,6 @@ code {
 
 a {
     text-decoration: none;
-    cursor: crosshair;
     border-bottom: 1px dashed Red;
     padding: 1px;
     color: black;
