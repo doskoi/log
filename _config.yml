@@ -1,2 +1,3 @@
 baseurl: http://sh3ng.com
-permalink: /log/:year/:month/:day/:title
+permalink: /:year/:month/:day/:title
+date_format: "ordinal"
