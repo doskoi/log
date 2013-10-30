@@ -1,0 +1,2 @@
+baseurl: http://sh3ng.com
+permalink: /log/:year/:month/:day/:title
