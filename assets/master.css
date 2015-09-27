@@ -99,3 +99,7 @@ img {
 hr {
     color: LightGrey;
 }
+
+.content {
+	text-indent: 2em;
+}
