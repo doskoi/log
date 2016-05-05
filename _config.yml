@@ -1,5 +1,5 @@
 baseurl: http://sh3ng.com
-name: NXNW
+name: Sheng, careless whisper
 permalink: /log/:year/:month/:day/:title
 date_format: "ordinal"
 subscribe_rss: /atom.xml
