@@ -75,7 +75,6 @@ code {
 
 a {
     text-decoration: none;
-    border-bottom: 1px dashed Red;
     padding: 1px;
     color: #2b6cc2;
 }
@@ -83,6 +82,7 @@ a {
 
 a:hover {
         background-color: LightGrey;
+        border-bottom: 1px dashed black;
 }
 
 
